@@ -1,8 +1,8 @@
 FROM ubuntu:20.04
 
-RUN apt-get update && apt install npm
+RUN apt-get update && apt-get install -y npm
 
-RUN apt install git
+RUN apt-get install git
 
 RUN git clone https://github.com/HubWizard/DevOps-Projects.git
 #Username
